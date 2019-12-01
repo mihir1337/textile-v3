@@ -851,7 +851,7 @@ body.activepop .textile-item-popup {
     color: #fff;
     text-align: center;
     padding: 15px 0;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 10px 10px 0px 0px !important;
 }
 
 .authore-img {
