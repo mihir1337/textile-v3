@@ -17,6 +17,16 @@
 	// Nice select
 	$('select').niceSelect();
 
+	// menu options custom affix
+	var fixed_top = $(".header-area");
+	$(window).on("scroll", function () {
+		if ($(window).scrollTop() > 70) {
+			fixed_top.addClass("animated fadeInDown sticky");
+		} else {
+			fixed_top.removeClass("animated fadeInDown sticky");
+		}
+	});
+
 	// change is-checked class on buttons
 	$('.textile-category ul').each(function (i, buttonGroup) {
 		var $buttonGroup = $(buttonGroup);

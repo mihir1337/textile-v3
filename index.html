@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/icofont.min.css">
     <link rel="stylesheet" href="assets/css/animate-headline.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
     <!--====== nice-select css ======-->
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <!--====== Default css ======-->
@@ -78,7 +79,7 @@
         <div class="crossbars">
             <button></button>
         </div>
-        <h4 class="title">Quick Contact</h4>
+        <h4 class="title">Contact with Provider</h4>
         <div class="quick-intro">
             <h4>Saiful Islam</h4>
             <p>Call 01744 245 716</p>
@@ -163,7 +164,7 @@
     <!-- header are end -->
 
     <!-- banner area start -->
-    <section class="banner-area bg_img pt-55 pb-55">
+    <section class="banner-area bg_img pt-55 pb-55" data-overlay="9">
         <div class="bg-video">
             <video class="bg-video__content" autoplay="" muted="" loop="">
                 <source src="assets/images/textile.mp4" type="video/mp4">
@@ -172,8 +173,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="textile-location-from" data-overlay="9">
-                        <img class="gear" src="assets/images/gear.png" alt="">
+                    <div class="textile-location-from">
                         <div class="row justify-content-center">
                             <div class="col-lg-10 text-center">
                                 <h2 class="title cd-headline clip is-full-width">
@@ -256,7 +256,7 @@
                 <div class="col-lg-9">
                     <div class="row mtm-30">
                         <div class="col-md-4 col-sm-6 mt-30">
-                            <div class="single-textile-item v2">
+                            <a href="#1" class="single-textile-item v2">
                                 <div class="single-textile-image">
                                     <img src="assets/images/1.jpg" alt="">
                                 </div>
@@ -268,8 +268,8 @@
                                 <div class="textile-bottom">
                                     <span><i class="fa fa-info-circle"></i> Available</span>
                                 </div>
-                            </div>
-                            <div class="textile-item-popup">
+                            </a>
+                            <div id="1" class="textile-item-popup">
                                 <div class="popup-close">
                                     <i class="icofont-close"></i>
                                 </div>
@@ -309,7 +309,7 @@
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-6 mt-30">
-                            <div class="single-textile-item v2">
+                            <a href="#2" class="single-textile-item v2">
                                 <div class="single-textile-image">
                                     <img src="assets/images/2.jpg" alt="">
                                 </div>
@@ -321,8 +321,8 @@
                                 <div class="textile-bottom">
                                     <span><i class="fa fa-info-circle"></i> Available</span>
                                 </div>
-                            </div>
-                            <div class="textile-item-popup">
+                            </a>
+                            <div id="2" class="textile-item-popup">
                                 <div class="popup-close">
                                     <i class="icofont-close"></i>
                                 </div>
@@ -555,6 +555,7 @@
     <!--========= nice-select js =========-->
     <script src="assets/js/jquery.nice-select.min.js"></script>
     <script src="assets/js/animate-headline.js"></script>
+    <script src="assets/js/wow.min.js"></script>
     <!--========= main js =========-->
     <script src="assets/js/main.js"></script>
 </body>
