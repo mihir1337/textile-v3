@@ -645,6 +645,14 @@
         margin-bottom: 10px;
     }
 
+    .single-textile-item.v2 .textile-top {
+        display: flex;
+    }
+
+    .single-textile-item.v2 .textile-top span {
+        font-size: 14px;
+    }
+
 }
 
 @media (max-width: 370px) {
