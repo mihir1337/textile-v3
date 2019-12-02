@@ -100,7 +100,7 @@
 		$(".overlay, body").removeClass("activepop");
 	});
 
-	$(".contact").on("click", function () {
+	$(".contact, .payment-mod").on("click", function () {
 		$(".overlay, body").removeClass("activepop");
 	});
 
