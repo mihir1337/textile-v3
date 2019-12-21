@@ -473,10 +473,6 @@ img {
     margin-top: -5px;
 }
 
-/* .single-textile-item.v2:hover {
-    box-shadow: 0 0 10px #b3b1b1;
-    border-color: transparent;
-} */
 
 .single-textile-item.v2 .textile-top {
     background: transparent;
@@ -715,15 +711,15 @@ img {
 .login-modal.register-modal.active,
 .login-modal.login-active,
 .contact-modal.active,
-.payment-modal.active,
-body.activepop .textile-item-popup {
+.payment-modal.active {
     transform: scale(1) translateX(-50%);
     visibility: visible;
     opacity: 1;
 }
-
-body.activepop .textile-item-popup {
+.activepop .textile-item-popup:target {
     transform: scale(1) translate(-50%, -50%);
+    visibility: visible;
+    opacity: 1;
 }
 
 .login-modal.register-modal.login-active {
