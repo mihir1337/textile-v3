@@ -709,15 +709,20 @@ img {
 
 
 .login-modal.register-modal.active,
-.login-modal.login-active,
-.contact-modal.active,
-.payment-modal.active {
+.login-modal.login-active {
     transform: scale(1) translateX(-50%);
     visibility: visible;
     opacity: 1;
 }
 .activepop .textile-item-popup:target {
     transform: scale(1) translate(-50%, -50%);
+    visibility: visible;
+    opacity: 1;
+}
+
+.contact-modal.active:target,
+.payment-modal.active:target {
+    transform: scale(1) translateX(-50%);
     visibility: visible;
     opacity: 1;
 }
